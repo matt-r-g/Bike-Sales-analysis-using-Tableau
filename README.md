@@ -4,9 +4,9 @@
 
 This project analyses the Bike Sales dataset using Tableau to identify key insights regarding sales performance. Specifically, the goal was to determine:
 
-1. 🌍 The countries with the lowest sales.
-2. 📦 The lowest selling products.
-3. 👥 The age group spread of customers.
+🌍 The countries with the lowest sales.
+📦 The lowest selling products.
+👥 The age group spread of customers.
 
 Based on these findings, actionable recommendations will be made to help the company improve its sales strategies and product offerings.
 
@@ -24,48 +24,59 @@ The data spans several years and provides a comprehensive overview of the compan
 
 ## 📊 Analysis Process
 
-### 1. 🔻 Identifying the Lowest Countries by Sales
+### 🔻 Identifying the Lowest Countries by Sales
 
 To determine which countries had the lowest sales, the following steps were taken:
 
 - **Data Aggregation:** The sales data was aggregated by country to calculate the total sales for each country.
 - **Sorting:** The countries were sorted in ascending order based on total sales to identify those with the lowest values.
-- **Visualisation:** A bar chart was created to visually represent the sales by country, highlighting the lowest performing countries.
+- **Visualisation:** A map was created to visually represent the sales by country, highlighting the lowest performing countries with colour.
 
-The countries with the lowest sales were identified, and further analysis was done to explore potential reasons for their low sales, such as market saturation or lack of targeted marketing efforts.
 
-### 2. 📉 Identifying the Lowest Selling Products
+<img width="697" alt="Screenshot 2025-02-26 at 23 52 38" src="https://github.com/user-attachments/assets/4e188abe-d76c-46c4-b81e-f3e48b7b82e9" />
+
+
+The countries with the lowest sales were identified and further analysis was done to explore potential reasons for their low sales, such as market saturation or lack of targeted marketing efforts.
+
+
+<img width="745" alt="Screenshot 2025-02-26 at 23 50 10" src="https://github.com/user-attachments/assets/867937cf-1117-4a4d-ad68-118c7d60d636" />
+
+I wanted to find if there were any trends with countries having low sales so I created a line chart to show over time the sales figures. United Kingdom and Germany have positive correlation and a stead increase year on year. However France and Canada have had a dip in sales the last year which needs to be addressed so that it does not continue long term.
+
+### 📉 Identifying the Lowest Selling Products
 
 To find the products with the lowest sales, the following steps were taken:
 
 - **Product Categorisation:** The products were categorised based on their respective subcategories and categories.
 - **Sales Analysis:** The total sales for each product were calculated, considering both quantity sold and sales revenue.
 - **Sorting:** Products were then sorted by total sales in ascending order to identify those with the lowest performance.
-- **Visualisation:** A bar chart or scatter plot was created to illustrate the sales performance of individual products, focusing on the lower end of the spectrum.
+- **Visualisation:** A bar chart  was created to illustrate the sales performance of individual products, focusing on the lower end of the spectrum.
 
-The lowest selling products were pinpointed, and further investigation was conducted to understand why these products underperformed. Possible factors include pricing issues, poor customer demand, or lack of promotional activities.
 
-### 3. 👥 Age Group Spread
+<img width="746" alt="Screenshot 2025-02-26 at 23 52 18" src="https://github.com/user-attachments/assets/20e5f449-9e17-4327-a8e6-06a2b701c58e" />
 
-Understanding the age group distribution of customers is crucial to assess the company’s reach across different demographics. The analysis focused on segmenting customers into key age groups and visualising their sales performance. 
+
+The lowest selling products were pinpointed, and further investigation was conducted to understand why these products underperformed. Possible factors include pricing issues, poor customer demand, or lack of promotional activities. 
+
+One noticable observation from this is that 5 of the 10 lowest selling products are from the Mountain-500 range. To combat this I would recommend a promotion for this brand of bike, reducing the price or ultimately they may have to discontinue the line if no progress is made. 
+
+### 👥 Demographic Spread
+
+Understanding the age group distribution of customers is crucial to assess the company’s reach across different demographics. The analysis focused on segmenting customers into key age groups/gender and visualising their sales performance. 
 
 #### Steps Taken:
-- **Age Group Categorisation:** Customers were segmented into age groups, such as 18-24, 25-34, 35-44, 45-54, and 55+.
+- **Age Group Categorisation:** Customers were segmented into age groups, such as 18-24, 25-34, 35-64 and 64+.
 - **Sales Analysis by Age Group:** Total sales and quantity sold were analysed for each age group to understand which demographics are driving sales.
-- **Visualisation:** A pie chart or bar chart was created to display the proportion of sales across different age groups.
+- **Visualisation:** A pie chart was created to display the proportion of sales across different age groups.
 
-The visualisation can help reveal which age groups contribute most to overall sales and allow for more targeted marketing and product recommendations.
+<img width="320" alt="Screenshot 2025-02-26 at 23 49 07" src="https://github.com/user-attachments/assets/007ddc09-e8de-4458-8c6a-577adbe895d9" />
 
-#### 📊 Sample Visualisation: Age Group Sales Breakdown
+The outcome showed that the split between Male and Female gender was nearly equal.
 
-<img width="320" alt="Screenshot 2025-02-26 at 23 49 07" src="https://github.com/user-attachments/assets/6b6992fa-02a9-401d-993a-f45632f7061d" />
-<img width="414" alt="Screenshot 2025-02-26 at 23 49 21" src="https://github.com/user-attachments/assets/df9cdb13-6595-46a7-b7c0-3caa554d1c4f" />
-<img width="745" alt="Screenshot 2025-02-26 at 23 50 10" src="https://github.com/user-attachments/assets/47fb4274-c520-4b6b-b349-68076655587c" />
-<img width="746" alt="Screenshot 2025-02-26 at 23 52 18" src="https://github.com/user-attachments/assets/5a41e73b-6383-4a7b-b543-fd458e67cc67" />
-<img width="697" alt="Screenshot 2025-02-26 at 23 52 38" src="https://github.com/user-attachments/assets/0870bcef-e9ef-4cca-840b-3662d3500bc6" />
+<img width="414" alt="Screenshot 2025-02-26 at 23 49 21" src="https://github.com/user-attachments/assets/0b704ede-9ae2-4616-9857-6ee8fb8f0f22" />
 
+The results indicate that the senior age group represents the smallest segment, while the youth demographic presents a promising opportunity for increasing sales. Specifically, individuals under the age of 25 are more likely to use bicycles compared to those aged 64 and above. The visualisation can help reveal which age groups contribute most to overall sales and allow for more targeted marketing and product recommendations.
 
-*Above is an example of a visualisation showing the sales breakdown by age group.*
 
 ## 📝 Key Findings
 
@@ -79,14 +90,14 @@ The visualisation can help reveal which age groups contribute most to overall sa
 ### Lowest Selling Products
 - The lowest selling products were mostly in specific subcategories that had lower demand in general.
 - Contributing factors to low sales include:
-  - Products that were either too niche or not well marketed.
+  - Products were possibly not well marketed.
   - Products with high prices compared to similar items.
   - Lack of seasonal or targeted promotions.
 
 ### Age Group Insights
 - The largest proportion of sales came from the **25-34** and **35-44** age groups, indicating that these customers are the primary drivers of sales.
 - The **18-24** age group showed lower sales, suggesting that younger customers may not be as engaged with the product range or pricing.
-- The **45-54** and **55+** age groups contributed smaller shares, possibly indicating that older customers prefer different product categories or are less likely to engage in purchasing through digital channels.
+- The **64+**  age group contributed smaller shares, possibly indicating that older customers prefer different product categories or are less likely to engage in purchasing through digital channels.
 
 ## 💡 Recommendations
 
@@ -94,8 +105,8 @@ Based on the findings from the analysis, the following recommendations can be ma
 
 ### For Low Sales Countries
 1. 📣 **Increase Marketing Efforts:** Invest in localised marketing strategies to increase brand recognition and awareness in these countries.
-2. 🚚 **Optimise Distribution Channels:** Review and enhance the distribution network to ensure products are available where demand exists.
-3. 📊 **Market Research:** Conduct market research to better understand customer needs and adapt the product offerings to local preferences.
+2. 🚚 **Optimise Distribution:** Review and enhance the distribution network to ensure products are available where demand exists.
+3. 📊 **Market Research:** Conduct market research to better understand customer needs and adapt the product offerings to local preferences, or expand the business into other countries.
 
 ### For Low Selling Products
 1. 💸 **Discounting and Promotions:** Offer promotional discounts or bundle deals to encourage customers to purchase underperforming products.
@@ -104,12 +115,12 @@ Based on the findings from the analysis, the following recommendations can be ma
 
 ### For Age Group Demographics
 1. 🧑‍🤝‍🧑 **Targeted Marketing for Younger Demographics:** Develop campaigns that appeal to the **18-24** age group, possibly by offering more affordable pricing, student discounts, or social media promotions.
-2. 🎯 **Product Personalisation for Older Demographics:** Consider customising products or creating new offerings that cater to the tastes of the **45-54** and **55+** age groups.
+2. 🎯 **Product Personalisation for Older Demographics:** Consider customising products or creating new products that cater to the tastes of the **64+** age group, prioritising comfort and detailing the health benefits.
 3. 👨‍👩‍👧‍👦 **Segmented Advertising:** Create more tailored advertisements based on the age groups most likely to engage with specific products, ensuring a more focused and effective marketing strategy.
 
 ## ✅ Conclusion
 
-This Tableau project provides valuable insights into the Bike Sales dataset, helping the company identify countries and products that require attention, as well as better understanding customer demographics. By implementing the recommended strategies, the company can aim to boost sales in underperforming markets, optimise the performance of its products across different regions, and better target marketing efforts towards key customer age groups.
+This Tableau project provides valuable insights into the Bike Sales dataset, helping the company identify countries and products that require attention, as well as better understanding customer demographics. By implementing the recommended strategies, the company can aim to boost sales in underperforming markets, optimise the performance of its products across different regions and better target marketing efforts towards key customer age groups.
 
 
 
