@@ -41,7 +41,8 @@ The countries with the lowest sales were identified and further analysis was don
 
 <img width="745" alt="Screenshot 2025-02-26 at 23 50 10" src="https://github.com/user-attachments/assets/867937cf-1117-4a4d-ad68-118c7d60d636" />
 
-I wanted to find if there were any trends with countries having low sales so I created a line chart to show over time the sales figures. United Kingdom and Germany have positive correlation and a stead increase year on year. However France and Canada have had a dip in sales the last year which needs to be addressed so that it does not continue long term.
+I wanted to find if there were any trends with countries having low sales so I created a line chart to show over time the sales figures. United Kingdom and Germany have positive correlation and a stead increase year on year. 
+However France and Canada have had a dip in sales the last year which needs to be addressed so that it does not continue long term.
 
 ### 📉 Identifying the Lowest Selling Products
 
